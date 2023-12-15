@@ -1,4 +1,4 @@
-## Find this project live running on [https://fitnessai.onrender.com] (fitness-AIRender)
+## Find this project live running on [Fitness-AI Render](https://fitnessai.onrender.com)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
