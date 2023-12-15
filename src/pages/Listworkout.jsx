@@ -37,7 +37,7 @@ const Listworkout = () => {
     return (
         <>
             <div className='sm:text-3xl font-bold p-3 flex justify-center items-center'>
-                <button className='rounded-full bg-amber-200 text-black text-sm p-1 m-1'
+                <button className='rounded-full bg-slate-500 text-white text-sm p-1 m-1'
                     onClick={handleBack}
                 >&lt; </button>
                 All workout plans
