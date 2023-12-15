@@ -12,7 +12,7 @@ const CardsSection = () => {
     return (
         <>
             <section id="explore">
-                <div className='flex flex-col justify-center items-center text-white bg-gradient-to-r from-indigo-500 to-red-200 p-[5.2rem] max-sm:p-[4.2rem]'>
+                <div className='flex flex-col justify-center items-center text-white bg-gradient-to-r from-gray-300 to-gray-400 p-[4.5rem] max-sm:p-[4.2rem]'>
                     {appState.step === 'explore' && <Explore />}
                     {appState.step === 'form' && <FormSection />}
                     {appState.step === 'browseAll' && <Allworkout />}

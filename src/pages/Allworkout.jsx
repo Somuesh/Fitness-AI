@@ -20,11 +20,11 @@ const Allworkout = () => {
     return (
         <>
             <div className='sm:text-3xl font-bold p-3 flex justify-center items-center text-center'>
-            <button className='rounded-full bg-amber-200 text-black sm:text-xs max-sm:text-[10px] p-1 mx-1'
+            <button className='rounded-full bg-slate-500 text-white sm:text-xs max-sm:text-[10px] p-1 mx-1'
                 onClick={handleBack}
             >&lt; </button>
             List of workout plans for you
-            <button className='rounded-md bg-amber-200 text-black sm:text-xs max-sm:text-[10px]  p-1 mx-1' onClick={handleAll}>All workouts</button>
+            <button className='rounded-md bg-slate-500 text-white sm:text-xs max-sm:text-[10px]  p-1 mx-1' onClick={handleAll}>All workouts</button>
             </div>
             <div className='flex flex-wrap justify-center'>
             {workout.length !== 0 ? workout.slice(0,3).map((a)=>
